@@ -95,6 +95,18 @@ div {
 
 .top {
     display: flex;
+    margin: 20px;
     gap: 15px;
     align-items: center;
+}
+
+.bot {
+    display: flex;
+    margin: 20px;
+    gap: 15px;
+    align-items: center;
+}
+
+.buttons {
+    margin-left: auto;
 }
