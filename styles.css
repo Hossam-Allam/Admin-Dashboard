@@ -79,3 +79,11 @@ div {
     justify-content: space-around;
     align-items: center;
 }
+
+.trending {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
