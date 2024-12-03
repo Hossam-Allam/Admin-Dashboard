@@ -23,8 +23,9 @@ div {
 
 .project {
     border: 1px solid black;
-    height: 150px;
-    width: 300px;
+    width: 100%;
+    /* Full width of grid cell */
+    aspect-ratio: 2 / 1;
 }
 
 .announcement {
@@ -61,6 +62,9 @@ div {
 
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 15px;
+    column-gap: 10px;
+    align-items: center;
+    justify-items: center;
 }
