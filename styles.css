@@ -23,15 +23,16 @@ div {
 
 .project {
     border: 1px solid black;
-    width: 100%;
+    width: 90%;
     /* Full width of grid cell */
     aspect-ratio: 2 / 1;
 }
 
 .announcement {
     border: 1px solid black;
-    height: 100px;
-    width: 250px;
+    width: 80%;
+    /* Full width of grid cell */
+    aspect-ratio: 3 / 1;
 }
 
 .trend {
@@ -67,4 +68,14 @@ div {
     column-gap: 10px;
     align-items: center;
     justify-items: center;
+}
+
+/*flex*/
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
 }
