@@ -1,0 +1,13 @@
+.top .pfp {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.bot .pfp {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
