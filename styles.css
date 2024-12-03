@@ -12,6 +12,7 @@ div {
     height: 30px;
     width: 30px;
     border-radius: 20px;
+    margin-left: auto;
 }
 
 .bot .pfp {
@@ -87,5 +88,13 @@ div {
     flex-direction: column;
     gap: 10px;
     justify-content: space-around;
+    align-items: center;
+}
+
+/*header*/
+
+.top {
+    display: flex;
+    gap: 15px;
     align-items: center;
 }
