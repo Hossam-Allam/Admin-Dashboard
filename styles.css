@@ -54,7 +54,7 @@ div {
 
 .content {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 3fr 1fr;
 }
 
 #projects {
@@ -62,11 +62,13 @@ div {
 }
 
 .projects {
+    height: 93%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    row-gap: 15px;
+    grid-template-rows: repeat(3, 1fr);
     column-gap: 10px;
-    align-items: center;
+    row-gap: 20px;
+    align-items: stretch;
     justify-items: center;
 }
 
