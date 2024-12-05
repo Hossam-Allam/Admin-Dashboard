@@ -15,7 +15,7 @@ div {
     height: 30px;
     width: 30px;
     border-radius: 20px;
-    margin-left: auto;
+    /*margin-left: auto;*/
 }
 
 .bot .pfp {
@@ -23,6 +23,10 @@ div {
     height: 50px;
     width: 50px;
     border-radius: 30px;
+}
+
+.pfp {
+    background-color: rgb(239, 239, 129);
 }
 
 .project {
@@ -49,7 +53,7 @@ div {
 
 .main {
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 19% 81%;
 }
 
 .sidebar {
@@ -148,4 +152,26 @@ li {
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+input {
+    width: 60%;
+    height: 25px;
+    background-color: rgb(234, 232, 232);
+    border-radius: 15px;
+}
+
+.bell {
+    margin-left: auto;
+}
+
+button {
+    background-color: #06b6d4;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+}
+
+button:hover {
+    cursor: pointer;
 }
