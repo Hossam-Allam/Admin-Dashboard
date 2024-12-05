@@ -50,6 +50,8 @@ div {
 }
 
 .sidebar {
+    display: grid;
+    grid-template-rows: 0.2fr 0.5fr 1fr;
     grid-row: 1/3;
 }
 
