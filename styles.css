@@ -233,6 +233,7 @@ button:hover {
 
 .trend {
     border-left: 5px solid #f87171;
+    padding-right: 5px;
 }
 
 h5 {
@@ -242,4 +243,10 @@ h5 {
 
 p {
     color: rgb(100, 99, 99);
+}
+
+input:focus {
+    border: 1px solid #06b6d4;
+    /* Change the border color and thickness */
+    outline: none;
 }
