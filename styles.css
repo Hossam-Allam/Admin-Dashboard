@@ -18,6 +18,10 @@ div {
     /*margin-left: auto;*/
 }
 
+.header {
+    padding-right: 20px;
+}
+
 .bot .pfp {
     border: 1px solid black;
     height: 50px;
@@ -60,16 +64,16 @@ svg:hover {
 }
 
 .announcement {
-    border: 1px solid black;
+
     width: 80%;
     /* Full width of grid cell */
     aspect-ratio: 3 / 1;
 }
 
 .trend {
-    border: 1px solid black;
-    height: 100px;
-    width: 250px;
+    width: 80%;
+    /* Full width of grid cell */
+    aspect-ratio: 3 / 1;
 }
 
 /*grid section*/
@@ -123,6 +127,7 @@ svg:hover {
     gap: 10px;
     justify-content: space-around;
     padding-left: 20px;
+    padding-bottom: 5px;
 }
 
 h3 {
@@ -188,6 +193,7 @@ input {
     height: 25px;
     background-color: rgb(234, 232, 232);
     border-radius: 15px;
+    border: none;
 }
 
 .bell {
@@ -210,4 +216,30 @@ button:hover {
 .content {
     box-shadow: 0px 3px 5px rgb(185, 185, 185) inset;
     background-color: #f3f4f6;
+}
+
+.announcement,
+.trend {
+    padding-top: 0px;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(179 178 178);
+}
+
+.announcement {
+    border-left: 5px solid #06b6d4;
+}
+
+.trend {
+    border-left: 5px solid #f87171;
+}
+
+h5 {
+    margin-block-start: 5px;
+    color: #0e7490;
+}
+
+p {
+    color: rgb(100, 99, 99);
 }
