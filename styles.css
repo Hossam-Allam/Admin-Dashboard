@@ -247,6 +247,5 @@ p {
 
 input:focus {
     border: 1px solid #06b6d4;
-    /* Change the border color and thickness */
     outline: none;
 }
